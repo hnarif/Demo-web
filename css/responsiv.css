@@ -1,0 +1,28 @@
+@media only screen  (max-width: 360px) and (max-width:740px) {
+  .foot { background-color: #28282800;}
+  .link1 {height: 144px; position: relative; top: 20px;left:50px; background-color: #b90d0d;}
+  .link2 { height: 235px;position: relative; top: 21px;left:50px;background-color: aqua;}
+  .link3 {height: 200px;color: #9d2184;width: 250px;position: relative;top: 22px;left: 45px;background-color:#000;}
+  .link4 {height: 240px;color: #fff;width: 250px;position: relative;top: 22px;background-color: blue;left: 45px;}
+
+}
+
+
+@media only screen  (min-width: 992px) and (max-width:1200px) {
+div.copy { width: 940px; position: absolute;left: 25px;}
+div.link1{left: 55px}
+div.link2{left:250px}
+div.link3 {left:500px;}
+div.link4 { left:740px;}
+div.fas{display: none}
+}
+
+@media only screen  (max-width: 767px) and (max-width:991px) {
+.foot{height:300px;width:100%;background-color:#28282800}
+
+.link1 {height:300px;color:#fff;width:200px;position:relative;top:20px;left:10px;background-color:#46e130;}
+.link2 {height:300px;color:#fff;width:200px;position:relative;top:-280px;left:140px;background-color:#46e130;}
+.link3 {height:300px;color:#fff;width:215px;position:relative;top:-580px;left:365px;background-color:#46e130;}
+.link4 {height:300px;color:#fff;width:214px;text-align:left;position: relative;top:-880px;left:600px;background-color: #46e130;}
+
+}
